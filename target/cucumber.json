@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify user can see the women ethnic page",
+        "description": "",
+        "id": ";verify-user-can-see-the-women-ethnic-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7023521000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open flipcart application",
+            "match": {
+              "location": "StepClass.open_flipcart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2157857900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "mouse over on fashion",
+            "match": {
+              "location": "StepClass.mouse_over_on_fashion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5187855500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select women ethnic from dropdown",
+            "match": {
+              "location": "StepClass.select_women_ethnic_from_dropdown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "flip.feature"
+  }
+]
